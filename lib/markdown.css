@@ -1,0 +1,96 @@
+
+.markdown-body>.border table td,
+.markdown-body>.border table thead tr,
+.markdown-body>.border table th {
+    border-top: 0;
+    border: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+ ul>li {
+    margin-left: 12px!important;
+    list-style-type: disc!important
+}
+
+
+ blockquote {
+    font-size: 90%;
+    color: #697b8c;
+    border-left: 4px solid #ebedf0;
+    padding-left: .8em;
+    margin: 1em 0
+}
+
+ table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 45px;
+    font-size: 14px;
+    line-height: 2.5em
+}
+
+ table th:first-child {
+    padding-left: 10px
+}
+
+ table td, table th {
+    color: #333;
+    border-bottom: 1px solid #d8d8d8;
+    padding: 15px;
+    max-width: 250px;
+    text-align: left
+}
+
+ pre code {
+    border: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    position: relative;
+    display: block;
+    padding: 16px;
+    overflow-x: auto;
+    color: #58727e;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Source Code Pro,Monaco,Inconsolata,monospace;
+    line-height: 26px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    -webkit-font-smoothing: auto;
+    background-color: #fafafa;
+    border-radius: 16px
+}
+
+
+p, pre {
+    margin: 1em 0
+}
+
+ b, strong {
+    font-weight: 500
+}
+
+ ul>li {
+    list-style-type: circle;
+    margin-left: 20px;
+    padding-left: 4px
+}
+
+ ol>li>p, ul>li>p {
+    margin: .2em 0
+}
+
+ h2 {
+    font-size: 24px;
+    line-height: 32px
+}
+
+ h2, h3, h4, h5, h6 {
+    color: #0d1a26;
+    font-family: Lato,Chinese Quote,-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Hiragino Sans GB,Microsoft YaHei,Helvetica Neue,Helvetica,Arial,sans-serif;
+    margin: 1.6em 0 .6em;
+    font-weight: 500;
+    clear: both
+}

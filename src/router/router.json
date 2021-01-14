@@ -1,0 +1,126 @@
+{
+  "指南": [
+    {
+      "name": "giud",
+      "path": "/giud",
+      "desc": "介绍"
+    },
+    {
+      "name": "install",
+      "path": "/install",
+      "desc": "安装"
+    },
+    {
+      "name": "start",
+      "path": "/start",
+      "desc": "开始"
+    }
+  ],
+  "组件": [
+    {
+      "desc": "basic",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "Input",
+          "name": "Input",
+          "path": "/basic/input",
+          "type": "basic"
+        },
+        {
+          "desc": "Select",
+          "name": "Select",
+          "path": "/basic/select",
+          "type": "basic"
+        },
+        {
+          "desc": "Radio",
+          "name": "Radio",
+          "path": "/basic/radio",
+          "type": "basic"
+        },
+        {
+          "desc": "Checkbox",
+          "name": "Checkbox",
+          "path": "/basic/checkbox",
+          "type": "basic"
+        }
+      ]
+    },
+    {
+      "desc": "form",
+      "path": "/component",
+      "items": [
+        {
+            "desc": "Input",
+            "name": "Input",
+            "path": "/basic/input",
+            "type": "basic"
+        }
+      ]
+    },
+    {
+      "desc": "table",
+      "path": "/component",
+      "items": [
+        {
+            "desc": "Input",
+            "name": "Input",
+            "path": "/basic/input",
+            "type": "basic"
+        }
+      ]
+    },
+    {
+      "desc": "others",
+      "path": "/component",
+      "items": [
+        {
+          "desc": "HighTimeline 高级时间线",
+          "name": "HighTimeline",
+          "path": "/others/highTimeline",
+          "type": "others"
+        },
+        {
+          "desc": "TreeTable 左树右表",
+          "name": "TreeTable",
+          "path": "/others/treeTable",
+          "type": "others"
+        },
+        {
+          "desc": "FixedNav 固定按钮",
+          "name": "FixedNav",
+          "path": "/others/fixedNav",
+          "type": "others"
+        }
+      ]
+    }
+  ],
+  "笔记": [
+    {
+      "name": "test",
+      "path": "/test",
+      "type": "other"
+    },
+    {
+      "name": "create",
+      "path": "/create",
+      "desc": "项目创建"
+    },
+    {
+      "name": "markdown",
+      "path": "/markdown",
+      "desc": "Markdown"
+    },
+    {
+      "name": "theme",
+      "path": "/theme",
+      "desc": "样式管理"
+    },
+    {
+      "name": "iconfont",
+      "path": "/iconfont",
+      "desc": "Iconfont"
+    }
+  ]
+}
