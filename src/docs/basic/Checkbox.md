@@ -69,30 +69,11 @@ export default {
 <div class="demo-block">
     <bee-checkbox
         all
-        v-model="form1"
+        v-model="form"
         placeholder="请选择内容"
         :dic="dic"
     ></bee-checkbox>
 </div>
-<script>
-export default {
-    data() {
-        return {
-            form1: [0],
-            dic: [
-                {
-                    label: "选项1",
-                    value: 0,
-                },
-                {
-                    label: "选项2",
-                    value: 1,
-                },
-            ],
-        };
-    },
-};
-</script>
 
 :::demo
 ```html

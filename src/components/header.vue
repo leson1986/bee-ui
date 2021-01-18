@@ -2,8 +2,7 @@
 <template>
   <div class="header">
       <div class="logo">
-        <!-- <img src="../assets/img/hai.png"> -->
-        <div>Bee-UI</div>
+        <img src="../assets/img/beeUi_Big_Logo.png">
       </div>
       <div class="list">
         <div class="list-son" @click="$router.push({ path: '/icon' })">组件</div>
@@ -37,14 +36,13 @@
       height: 80px;
       display: inline-flex;
       align-items: center;
-      padding-left: 30px;
+      padding-left: 100px;
       &>div
         font-size: 35px;
         margin-left: 20px;
         color: $color-white;
       &>img
-        width 50px
-        height 50px
+        height 80px
     .list
       height: 80px;
       display: inline-flex;

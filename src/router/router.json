@@ -22,27 +22,45 @@
       "path": "/component",
       "items": [
         {
-          "desc": "Input",
+          "desc": "Input 输入框",
           "name": "Input",
           "path": "/basic/input",
           "type": "basic"
         },
         {
-          "desc": "Select",
+          "desc": "Select 选择器",
           "name": "Select",
           "path": "/basic/select",
           "type": "basic"
         },
         {
-          "desc": "Radio",
+          "desc": "Radio 单选",
           "name": "Radio",
           "path": "/basic/radio",
           "type": "basic"
         },
         {
-          "desc": "Checkbox",
+          "desc": "Checkbox 多选",
           "name": "Checkbox",
           "path": "/basic/checkbox",
+          "type": "basic"
+        },
+        {
+          "desc": "Switch 开关",
+          "name": "Switch",
+          "path": "/basic/switch",
+          "type": "basic"
+        },
+        {
+          "desc": "Rate 评分",
+          "name": "Rate",
+          "path": "/basic/rate",
+          "type": "basic"
+        },
+        {
+          "desc": "Slider 滑块",
+          "name": "Slider",
+          "path": "/basic/slider",
           "type": "basic"
         }
       ]
@@ -52,10 +70,10 @@
       "path": "/component",
       "items": [
         {
-            "desc": "Input",
-            "name": "Input",
-            "path": "/basic/input",
-            "type": "basic"
+            "desc": "Mini",
+            "name": "Mini",
+            "path": "/form/mini",
+            "type": "form"
         }
       ]
     },

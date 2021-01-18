@@ -32,6 +32,11 @@ let addComponent = (router) => {
           r(require(`../docs/others/${route.name}.md`)))
           return
         }
+        if (route.type === 'form') {
+          route.component = r => require.ensure([], () =>
+          r(require(`../docs/form/${route.name}.md`)))
+          return
+        }
       route.component = r => require.ensure([], () =>
         r(require(`../docs/${route.name}.md`)))
     }
