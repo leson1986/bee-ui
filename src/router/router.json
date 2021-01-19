@@ -110,6 +110,54 @@
           "name": "FixedNav",
           "path": "/others/fixedNav",
           "type": "others"
+        },
+        {
+          "desc": "Search 高级搜索",
+          "name": "Search",
+          "path": "/others/search",
+          "type": "others"
+        },
+        {
+          "desc": "Avatar 头像",
+          "name": "Avatar",
+          "path": "/others/avatar",
+          "type": "others"
+        },
+        {
+          "desc": "Article 文章",
+          "name": "Article",
+          "path": "/others/article",
+          "type": "others"
+        },
+        {
+          "desc": "Comment 评论",
+          "name": "Comment",
+          "path": "/others/comment",
+          "type": "others"
+        },
+        {
+          "desc": "Card 卡片",
+          "name": "Card",
+          "path": "/others/card",
+          "type": "others"
+        },
+        {
+          "desc": "Tree 树",
+          "name": "Tree",
+          "path": "/others/tree",
+          "type": "others"
+        },
+        {
+          "desc": "Watermark 全局水印",
+          "name": "Watermark",
+          "path": "/others/watermark",
+          "type": "others"
+        },
+        {
+          "desc": "Skeleton 骨架屏",
+          "name": "Skeleton",
+          "path": "/others/skeleton",
+          "type": "others"
         }
       ]
     }

@@ -64,6 +64,8 @@
         font-weight: normal;
         line-height: 1.5;
         cursor: pointer;
+        &:hover
+          font-size: 15px;
       .menu-group
         padding: 4px 0 4px 16px;
         font-size: 15px;
@@ -77,5 +79,4 @@
         font-size: 15px;
       .active, a:hover
         color: darken($color-primary, 50%);
-        font-weight 600
 </style>

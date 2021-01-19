@@ -32,9 +32,29 @@ export default {
     width: 85%;
     .app-main-left
       min-width 230px
-      position relative
+      position fixed 
+      margin-top 80px
+      height 100%
+      z-index 999
+      left 123px
+      overflow hidden
+      &:hover 
+        overflow scroll
+      &::-webkit-scrollbar
+        width 4px
+      &::-webkit-scrollbar-thumb
+        opacity: 0;
+        cursor: pointer;
+        background-color: rgba(144, 147, 153, 1);
+        border-radius: inherit;
+      &::-webkit-scrollbar-track
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, 1);
+        border-radius: inherit;
     .app-main-right
+      margin-top 80px
       position relative
       padding-top 15px
       flex 1
+      padding-left 280px
 </style>

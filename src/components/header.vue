@@ -5,7 +5,9 @@
         <img src="../assets/img/beeUi_Big_Logo.png">
       </div>
       <div class="list">
-        <div class="list-son" @click="$router.push({ path: '/icon' })">组件</div>
+        <div class="list-son" @click="$router.push({ path: '/home' })">首页</div>
+        <div class="list-son" @click="$router.push({ path: '/giud' })">指南</div>
+        <div class="list-son" @click="$router.push({ path: '/basic/input' })">组件</div>
         <div class="list-son" @click="$router.push({ path: '/create' })">笔记</div>
       </div>
   </div>
@@ -29,14 +31,20 @@
     height 80px
     min-width 500px
     line-height 80px
+    position fixed
+    left 0
+    right 0
+    z-index 9999
     background $color-primary
-    display: flex;
+    display flex
     justify-content: space-between;
     .logo
       height: 80px;
       display: inline-flex;
       align-items: center;
-      padding-left: 100px;
+      padding: 0 40px;
+      margin-left: 100px;
+      background $color-white
       &>div
         font-size: 35px;
         margin-left: 20px;
