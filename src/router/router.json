@@ -22,6 +22,18 @@
       "path": "/component",
       "items": [
         {
+            "desc": "Form & Crud公共属性",
+            "name": "Common",
+            "path": "/basic/common",
+            "type": "basic"
+        },
+        {
+            "desc": "Format 日期格式化",
+            "name": "Format",
+            "path": "/basic/format",
+            "type": "basic"
+        },
+        {
           "desc": "Input 输入框",
           "name": "Input",
           "path": "/basic/input",
@@ -70,22 +82,28 @@
       "path": "/component",
       "items": [
         {
-            "desc": "Mini",
-            "name": "Mini",
-            "path": "/form/mini",
+            "desc": "Docs 文档",
+            "name": "Formdoc",
+            "path": "/form/doc",
+            "type": "form"
+        },
+        {
+            "desc": "基础",
+            "name": "Basic",
+            "path": "/form/basic",
             "type": "form"
         }
       ]
     },
     {
-      "desc": "table",
+      "desc": "crud",
       "path": "/component",
       "items": [
         {
-            "desc": "Input",
-            "name": "Input",
-            "path": "/basic/input",
-            "type": "basic"
+            "desc": "Docs 文档",
+            "name": "Cruddoc",
+            "path": "/crud/doc",
+            "type": "crud"
         }
       ]
     },
