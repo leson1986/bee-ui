@@ -19,6 +19,9 @@ import Bee from '../lib/bee.min.js';
 import '../lib/index.css';
 Vue.use(Bee);
 
+import axios from 'axios';
+window.axios=axios
+
 Vue.component('demo-block', demoBlock)
 Vue.config.productionTip = false
 

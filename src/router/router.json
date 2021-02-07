@@ -83,7 +83,7 @@
       "items": [
         {
             "desc": "Docs 文档",
-            "name": "Formdoc",
+            "name": "Form_doc",
             "path": "/form/doc",
             "type": "form"
         },
@@ -91,6 +91,60 @@
             "desc": "基础",
             "name": "Basic",
             "path": "/form/basic",
+            "type": "form"
+        },
+        {
+            "desc": "文本框",
+            "name": "Form_input",
+            "path": "/form/input",
+            "type": "form"
+        },
+        {
+            "desc": "校验",
+            "name": "Form_rules",
+            "path": "/form/rules",
+            "type": "form"
+        },
+        {
+            "desc": "日期",
+            "name": "Form_date",
+            "path": "/form/date",
+            "type": "form"
+        },
+        {
+            "desc": "多级联动",
+            "name": "Form_select",
+            "path": "/form/select",
+            "type": "form"
+        },
+        {
+            "desc": "滑块",
+            "name": "Form_slider",
+            "path": "/form/slider",
+            "type": "form"
+        },
+        {
+            "desc": "评价",
+            "name": "Form_rate",
+            "path": "/form/rate",
+            "type": "form"
+        },
+        {
+            "desc": "事件",
+            "name": "Form_event",
+            "path": "/form/event",
+            "type": "form"
+        },
+        {
+            "desc": "搜索",
+            "name": "Form_search",
+            "path": "/form/search",
+            "type": "form"
+        },
+        {
+            "desc": "详情",
+            "name": "Form_details",
+            "path": "/form/details",
             "type": "form"
         }
       ]
