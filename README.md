@@ -1,6 +1,6 @@
 # Bee
 
-> `Bee` 是一款基于 `Vue` ，以Element-UI为底层的商业业务组件。
+> `Bee` 是一款基于 `Vue` ，以Element-UI为底层的商业应用组件。
 
 ### 由来
 
