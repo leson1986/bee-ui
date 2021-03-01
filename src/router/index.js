@@ -1,6 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import navConf from './router.json'
+import Home from '../components/HelloWorld.vue'
 
 Vue.use(Router)
 
@@ -17,11 +18,6 @@ let addComponent = (router) => {
       addComponent(route.items)
       routes = routes.concat(route.items)
     } else {
-        if (route.type === 'other') {
-          route.component = r => require.ensure([], () =>
-            r(require(`../other/${route.name}.vue`)))
-          return
-        }
         if (route.type === 'basic') {
           route.component = r => require.ensure([], () =>
           r(require(`../docs/basic/${route.name}.md`)))
@@ -49,7 +45,7 @@ let addComponent = (router) => {
 }
 //console.log(routes)
 addComponent(routes)
-routes.push({ path: '/', redirect: '/giud' })
+routes.push({ path: '/', component: Home })
 export default new Router({
   routes: routes
 })

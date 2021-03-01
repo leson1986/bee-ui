@@ -89,7 +89,7 @@
         },
         {
             "desc": "基础",
-            "name": "Basic",
+            "name": "Form_basic",
             "path": "/form/basic",
             "type": "form"
         },
@@ -155,8 +155,68 @@
       "items": [
         {
             "desc": "Docs 文档",
-            "name": "Cruddoc",
+            "name": "Crud_doc",
             "path": "/crud/doc",
+            "type": "crud"
+        },
+        {
+            "desc": "基础",
+            "name": "Crud_basic",
+            "path": "/crud/basic",
+            "type": "crud"
+        },
+        {
+            "desc": "卡片模式",
+            "name": "Crud_card",
+            "path": "/crud/card",
+            "type": "crud"
+        },
+        {
+            "desc": "分页",
+            "name": "Crud_page",
+            "path": "/crud/page",
+            "type": "crud"
+        },
+        {
+            "desc": "大表哥",
+            "name": "Crud_big",
+            "path": "/crud/big",
+            "type": "crud"
+        },
+        {
+            "desc": "行操作",
+            "name": "Crud_row",
+            "path": "/crud/row",
+            "type": "crud"
+        },
+        {
+            "desc": "合并单元格",
+            "name": "Crud_merge",
+            "path": "/crud/merge",
+            "type": "crud"
+        },
+        {
+            "desc": "统计合计",
+            "name": "Crud_total",
+            "path": "/crud/total",
+            "type": "crud"
+        },
+        {
+            "desc": "弹窗方式",
+            "name": "Crud_drawer",
+            "path": "/crud/drawer",
+            "type": "crud"
+        },
+        {
+            "desc": "自定义样式",
+            "name": "Crud_style",
+            "path": "/crud/style",
+            "type": "crud"
+        },
+        {
+            "desc": "自定义",
+            "name": "Crud_diy",
+            "path": "/crud/diy",
             "type": "crud"
         }
       ]
@@ -232,33 +292,6 @@
           "type": "others"
         }
       ]
-    }
-  ],
-  "笔记": [
-    {
-      "name": "test",
-      "path": "/test",
-      "type": "other"
-    },
-    {
-      "name": "create",
-      "path": "/create",
-      "desc": "项目创建"
-    },
-    {
-      "name": "markdown",
-      "path": "/markdown",
-      "desc": "Markdown"
-    },
-    {
-      "name": "theme",
-      "path": "/theme",
-      "desc": "样式管理"
-    },
-    {
-      "name": "iconfont",
-      "path": "/iconfont",
-      "desc": "Iconfont"
     }
   ]
 }

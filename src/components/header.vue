@@ -5,10 +5,10 @@
         <img src="../assets/img/beeUi_Big_Logo.png">
       </div>
       <div class="list">
-        <div class="list-son" @click="$router.push({ path: '/home' })">首页</div>
+        <div class="list-son" @click="$router.push({ path: '/' })">首页</div>
         <div class="list-son" @click="$router.push({ path: '/giud' })">指南</div>
         <div class="list-son" @click="$router.push({ path: '/basic/input' })">组件</div>
-        <div class="list-son" @click="$router.push({ path: '/create' })">笔记</div>
+        <!-- <div class="list-son" @click="$router.push({ path: '/create' })">笔记</div> -->
       </div>
   </div>
 </template>
@@ -34,7 +34,7 @@
     position fixed
     left 0
     right 0
-    z-index 9999
+    z-index 1000
     background $color-primary
     display flex
     justify-content: space-between;
