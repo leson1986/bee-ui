@@ -146,7 +146,7 @@ export default {
     </span>
   </span>
   <template slot-scope="scope" slot="menu">
-    <div class="avue-tree__item" @click.native="tip(scope.node,scope.data)">自定义按钮</div>
+    <div class="bee-tree__item" @click.native="tip(scope.node,scope.data)">自定义按钮</div>
   </template>
 </bee-tree>
 
@@ -163,7 +163,7 @@ export default {
     </span>
   </span>
   <template slot-scope="scope" slot="menu">
-    <div class="avue-tree__item" @click.native="tip(scope.node,scope.data)">自定义按钮</div>
+    <div class="bee-tree__item" @click.native="tip(scope.node,scope.data)">自定义按钮</div>
   </template>
 </bee-tree>
 <script>
@@ -271,7 +271,7 @@ export default {
 <div class="demo-block">
 <bee-tree :option="option1"  @node-click="nodeClick" @update="update" @save="save" @del="del" v-model="form">
   <template slot-scope="scope" slot="menu">
-    <div class="avue-tree__item" @click.native="tip(scope.node,scope.data)">自定义按钮</div>
+    <div class="bee-tree__item" @click.native="tip(scope.node,scope.data)">自定义按钮</div>
   </template>
 </bee-tree>
 </div>
@@ -283,7 +283,7 @@ export default {
 ```html
 <bee-tree :option="option1"  @node-click="nodeClick" @update="update" @save="save" @del="del" v-model="form">
   <template slot-scope="scope" slot="menu">
-    <div class="avue-tree__item" @click.native="tip(scope.node,scope.data)">自定义按钮</div>
+    <div class="bee-tree__item" @click.native="tip(scope.node,scope.data)">自定义按钮</div>
   </template>
 </bee-tree>
 <script>
@@ -385,7 +385,7 @@ export default {
 |---------- |-------------- |---------- |--------------------------------  |-------- |
 | defaultExpandAll | 是否展开节点 | Boolean | false / true  | false |
 | dialogWidth | 弹出框宽度 | String | - | 50% |
-| formOption | 自定义form表单，具体参考avue-form组件(默认自带一个标题的column，可以根据配置去修改) | Object | - | - |
+| formOption | 自定义form表单，具体参考bee-form组件(默认自带一个标题的column，可以根据配置去修改) | Object | - | - |
 | menu | 菜单栏 | Boolean | false / true  | true |
 | addBtn | 新增按钮 | Boolean | false / true  | true |
 | editBtn | 编辑按钮 | Boolean | false / true  | true |

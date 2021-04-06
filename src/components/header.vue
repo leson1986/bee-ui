@@ -8,7 +8,7 @@
         <div class="list-son" @click="$router.push({ path: '/' })">首页</div>
         <div class="list-son" @click="$router.push({ path: '/giud' })">指南</div>
         <div class="list-son" @click="$router.push({ path: '/basic/input' })">组件</div>
-        <!-- <div class="list-son" @click="$router.push({ path: '/create' })">笔记</div> -->
+        <div class="list-son" @click="$router.push({ path: '/log/deepclone' })">常用日志</div>
       </div>
   </div>
 </template>

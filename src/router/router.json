@@ -13,7 +13,12 @@
     {
       "name": "start",
       "path": "/start",
-      "desc": "开始"
+      "desc": "快速上手"
+    },
+    {
+      "name": "local",
+      "path": "/local",
+      "desc": "国际化"
     }
   ],
   "组件": [
@@ -292,6 +297,20 @@
           "type": "others"
         }
       ]
+    }
+  ],
+  "常用日志": [
+    {
+      "name": "deepclone",
+      "path": "/log/deepclone",
+      "desc": "深度克隆",
+      "type": "log"
+    },
+    {
+      "name": "delobj",
+      "path": "/log/delobj",
+      "desc": "清空属性值",
+      "type": "log"
     }
   ]
 }

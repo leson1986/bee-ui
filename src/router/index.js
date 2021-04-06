@@ -38,6 +38,11 @@ let addComponent = (router) => {
           r(require(`../docs/crud/${route.name}.md`)))
           return
         }
+        if (route.type === 'log') {
+          route.component = r => require.ensure([], () =>
+          r(require(`../docs/log/${route.name}.md`)))
+          return
+        }
       route.component = r => require.ensure([], () =>
         r(require(`../docs/${route.name}.md`)))
     }

@@ -1,6 +1,6 @@
 
 import Button from './button/index.js';
-import collapseTransition from './collapse-transition/collapse-transition.js';
+import CollapseTransition from './collapse-transition/collapse-transition.js';
 import Message from './message/index.js';
 import Carousel from './carousel/index.js';
 import CarouselItem from './carousel-item/index.js';
@@ -8,7 +8,7 @@ import CarouselItem from './carousel-item/index.js';
 
 const components = [
   Button,
-  collapseTransition,
+  CollapseTransition,
   Carousel,
   CarouselItem,
 ]
@@ -27,7 +27,7 @@ export default {
   install,
   Button,
   Message,
-  collapseTransition,
+  CollapseTransition,
   Carousel,
   CarouselItem,
 }

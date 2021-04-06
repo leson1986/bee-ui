@@ -1,4 +1,4 @@
-# 快速开始
+# 快速上手
 
 ----
 
@@ -14,6 +14,20 @@ Vue.use(Bee);
 //如果使用字典需要赋值axios为全局
 import axios from 'axios';
 window.axios=axios
+```
+### CDN方式
+
+将下载的包放入public目录下新建的lib下
+
+```js
+//在index.html引入bee的包
+bee.min.js为压缩混淆包
+bee.js为没有压缩混淆的包
+<link rel="stylesheet" href="/lib/index.css" />
+<script src="/lib/bee.min.js"></script>
+
+//在main.js中使用
+Vue.use(window.BEE);
 ```
 
 ### 单个组件按需使用

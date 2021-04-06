@@ -33,7 +33,8 @@
   @import "../assets/styl/var.styl"
   .menu
     display: inline-block;
-    margin: 32px 0;
+    margin-top: 32px;
+    margin-bottom: 64px;
     padding: 0 10px;
     color: #3F536E;
     background-color: #fff;

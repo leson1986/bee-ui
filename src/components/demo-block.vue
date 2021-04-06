@@ -1,12 +1,12 @@
 <template>
   <div>
-    <collapseTransition>
+    <div>
       <div v-if="isShow" class="container">
         <div class="docs">
           <slot name="highlight"></slot>
         </div>
       </div>
-    </collapseTransition>
+    </div>
     <span class="docs-trans" @click="isShow = !isShow">{{isShow ? '隐藏代码' : '显示代码'}}</span>
   </div>
 </template>
