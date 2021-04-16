@@ -1,6 +1,11 @@
 {
   "指南": [
     {
+      "name": "update",
+      "path": "/update",
+      "desc": "更新日志"
+    },
+    {
       "name": "giud",
       "path": "/giud",
       "desc": "介绍"
@@ -252,6 +257,18 @@
           "desc": "Search 高级搜索",
           "name": "Search",
           "path": "/others/search",
+          "type": "others"
+        },
+        {
+          "desc": "Upload 上传",
+          "name": "HighUpload",
+          "path": "/others/highUpload",
+          "type": "others"
+        },
+        {
+          "desc": "Orgchart 组织架构图",
+          "name": "Orgchart",
+          "path": "/others/orgchart",
           "type": "others"
         },
         {
