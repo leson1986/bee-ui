@@ -24,6 +24,10 @@
         ],
         option:{
           title:'表格的标题',
+          titleSize:'h3',
+          titleStyle:{
+            color:'red'
+          },
           page:false,
           align:'center',
           menuAlign:'center',
@@ -44,7 +48,6 @@
           ]
         },
         option1:{
-          title:'表格的标题',
           menuType:'menu',
           menuBtnTitle:'自定义名称',
           dateBtn:true,
@@ -69,7 +72,6 @@
           ]
         },
         option2:{
-          title:'表格的标题',
           menuType:'text',
           page:false,
           align:'center',
@@ -94,7 +96,6 @@
           ]
         },
         option3:{
-          title:'表格的标题',
           menuType:'icon',
           page:false,
           align:'center',
@@ -130,7 +131,6 @@
      computed: {
        option0(){
          return{
-            title:'表格的标题',
             border:this.showBorder,
             stripe:this.showStripe,
             showHeader:this.showHeader,
@@ -203,6 +203,10 @@ export default {
         ],
         option:{
           title:'表格的标题',
+          titleSize:'h3',
+          titleStyle:{
+            color:'red'
+          },
           page:false,
           align:'center',
           menuAlign:'center',
@@ -306,7 +310,6 @@ export default {
      computed: {
        option0(){
          return{
-            title:'表格的标题',
             border:this.showBorder,
             stripe:this.showStripe,
             showHeader:this.showHeader,
@@ -384,7 +387,6 @@ export default {
           }
         ],
         option1:{
-          title:'表格的标题',
           menuType:'menu',
           menuBtnTitle:'自定义名称',
           page:false,
@@ -468,7 +470,6 @@ export default {
           }
         ],
         option2:{
-          title:'表格的标题',
           menuType:'text',
           page:false,
           align:'center',
@@ -551,7 +552,6 @@ export default {
           }
         ],
         option3:{
-          title:'表格的标题',
           menuType:'icon',
           page:false,
           align:'center',

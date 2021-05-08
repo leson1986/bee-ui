@@ -13,3 +13,9 @@
 ## 问题
 
 - 在使用 `Bee` 时遇到问题，或者有好的建议，欢迎提出来！欢迎志同道合前端友人，一起开发！
+- <a href="https://gitee.com/lesonchan/bee/issues" target="block">`https://gitee.com/lesonchan/bee/issues`</a>
+## 感谢
+
+- 感谢<a href="https://element.eleme.cn/" target="block">`ELEMENT-UI`</a>开源项目
+- 感谢<a href="https://avuejs.com/" target="block">`AVUE`</a>开源项目
+- 感谢<a href="https://github.com/dabeng/vue-orgchart" target="block">`Vue-orgchart`</a>开源项目

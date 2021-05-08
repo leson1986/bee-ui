@@ -108,6 +108,9 @@ column中的每一项目配置具体参考对应的type属性文档，不写type
 |updateBtnTitle|弹出框更新按钮标题|String|—|修改|
 |viewBtn|查看按钮|Boolean|true/false|false|
 |viewTitle|查看窗口文案|String|-|查看|
+|title|表格标题|String|-|-|
+|titleSize|表格标题字号|String|-|h3|
+|titleStyle|表格标题自定义样式|Object|-|-|
 
 ## Text Option Attributes
 |参数|说明|类型|可选值|默认值|

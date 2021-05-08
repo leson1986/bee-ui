@@ -43,7 +43,7 @@
 |tipPlacement<tag>表单生效</tag>|文字提示展示方向|String|top-start/top/top-end/left-start/leftleft-end/right-start/right/right-endbottom-start/bottom/bottom-end|-|
 |placeholder|辅助语|String|—|请选择/请输入+label|
 |prop|列字段|String|—|-|
-|bind|深结构绑定[在线例子](/doc/form/form-bind)|String|—|-|
+|bind|深结构绑定|String|—|-|
 |readonly|只读|Boolean|true/false|false|
 |rules|表单规则,参考ele表单规则配置|Object|-|-|
 |size|表单大小|String|medium/small/mini|medium|
@@ -51,7 +51,7 @@
 |gutter|项之间的间|Number|-|20|
 |display|全部是否可见|Boolean|true/false|true|
 |props|字典的配置(参考下方Props Attributes)|Object|—|-|
-|dataType|数据类型[参考配置](/doc/dataType)|String|-|-|
+|dataType|数据类型[参考配置](#/basic/format)|String|-|-|
 |value|默认值|-|—|-|
 |dicData<tag>(type=select/tree/checkbox/radio/switch)</tag>|字典数据|Array|—|-|
 |dicUrl<tag>(type=select/tree/checkbox/radio/switch)</tag>|字典地址|String|—|-|
@@ -77,3 +77,4 @@
 |change|变化事件|Function({value,column}){}|
 |focus|聚焦事件|Function({value,column}){}|
 |blur|失焦事件|Function({value,column}){}|
+|control|控制事件|Function({value,column}){}|
